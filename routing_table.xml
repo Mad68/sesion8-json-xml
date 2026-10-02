@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<router id="RTR-CORE-01">
+  <routing_table>
+    <route>
+      <network>10.10.10.0</network>
+      <mask>255.255.255.0</mask>
+      <next_hop>192.168.1.2</next_hop>
+      <protocol>OSPF</protocol>
+      <metric>110</metric>
+    </route>
+    <route>
+      <network>172.16.0.0</network>
+      <mask>255.255.0.0</mask>
+      <next_hop>10.0.0.2</next_hop>
+      <protocol>BGP</protocol>
+      <metric>20</metric>
+    </route>
+  </routing_table>
+</router>

@@ -1,0 +1,27 @@
+{
+  "router_id": "RTR-CORE-01",
+  "location": "DataCenter-A",
+  "interfaces": [
+    {
+      "name": "GigabitEthernet0/0",
+      "ip_address": "192.168.1.1",
+      "netmask": "255.255.255.0",
+      "status": "up",
+      "vlan": 10
+    },
+    {
+      "name": "GigabitEthernet0/1",
+      "ip_address": "10.0.0.1",
+      "netmask": "255.255.255.252",
+      "status": "up",
+      "vlan": 20
+    },
+    {
+      "name": "GigabitEthernet0/2",
+      "ip_address": "unassigned",
+      "netmask": "none",
+      "status": "down",
+      "vlan": 1
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "router_id": "RTR-CORE-01",
+    "routes": [
+        {
+            "network": "10.10.10.0",
+            "mask": "255.255.255.0",
+            "next_hop": "192.168.1.2",
+            "protocol": "OSPF",
+            "metric": 110
+        },
+        {
+            "network": "172.16.0.0",
+            "mask": "255.255.0.0",
+            "next_hop": "10.0.0.2",
+            "protocol": "BGP",
+            "metric": 20
+        }
+    ]
+}
